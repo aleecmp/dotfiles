@@ -1,0 +1,245 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "window.titleBarStyle": "custom",
+  "keyboard.dispatch": "keyCode",
+  "editor.wordWrap": "on",
+
+
+  // "liveServer.settings.AdvanceCustomBrowserCmdLine": "brave",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chromium",
+  
+  /* Terminal */
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  /* Telemetry */
+  "telemetry.telemetryLevel": "off",
+  /* minimap */
+  "editor.minimap.renderCharacters": false,
+  /* bracketpairs */
+  "editor.bracketPairColorization.enabled": true,
+  /* workbench */
+  "workbench.tree.indent": 8,
+  /* cursor */
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "blink",
+  /* linterns */
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  /* font */
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.fontWeight": "normal",
+  // "editor.lineHeight": 1.2,
+  // scrollbar
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderLineHighlight": "all",
+  // colors
+  "workbench.colorTheme": "Default Dark+ Experimental",
+  "workbench.colorCustomizations": {
+    // /* error squiggles */
+    // "editorError.foreground": "#bf60ff",
+    // /* warning squggles */
+    // "editorWarning.foreground": "#ffc400",
+    // /* info squiggles */
+    // "editorInfo.foreground": "#35ffab",
+    "[Default Dark+]": {
+      "statusBar.background": "#2E2E2E",
+      "statusBar.foreground": "#569CD6",
+      "statusBarItem.remoteBackground": "#2E2E2E",
+      "statusBarItem.remoteForeground": "#569CD6",
+      "activityBar.background": "#2E2E2E",
+      "tab.inactiveBackground": "#2E2E2E"
+    },
+    "[Darcula Theme from IntelliJ]": {
+      "statusBar.background": "#2E2E2E",
+      "statusBar.foreground": "#ffb86c",
+      "statusBarItem.remoteBackground": "#2E2E2E",
+      "statusBarItem.remoteForeground": "#ffb86c",
+      "activityBar.background": "#2E2E2E",
+      "tab.inactiveBackground": "#2E2E2E"
+    },
+    "[Rosé Pine (no italics)]": {
+      "editor.selectionBackground": "#b46ba2"
+    }
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Default",
+  "python.terminal.activateEnvironment": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "leetcode.workspaceFolder": "/home/alexis/Documents/LeetCode",
+  "leetcode.defaultLanguage": "javascript",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.hint.commentDescription": false,
+  "window.menuBarVisibility": "compact",
+  "python.formatting.provider": "black",
+  // Prettier
+  "prettier.bracketSameLine": false,
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.printWidth": 75,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": true,
+  "prettier.vueIndentScriptAndStyle": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "errorLens.enabled": true,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "html.format.wrapAttributes": "force-aligned",
+  "workbench.tree.renderIndentGuides": "onHover",
+  "editor.tabSize": 2,
+  // "vim.easymotion": true,
+  // "vim.incsearch": true,
+  // "vim.useSystemClipboard": true,
+  // "vim.useCtrlKeys": true,
+  // "vim.hlsearch": true,
+  // "vim.normalModeKeyBindings": [
+  //   {
+  //     "before": ["<leader>", "d"],
+  //     "after": ["d", "d"]
+  //   },
+  //   {
+  //     "before": ["<tab>"],
+  //     "commands": ["workbench.action.nextEditor"]
+  //   },
+  //   {
+  //     "before": ["<S-tab>"],
+  //     "commands": ["workbench.action.previousEditor"]
+  //   }
+  // ],
+  // "vim.insertModeKeyBindings": [],
+  // "vim.visualModeKeyBindings": [
+  //   {
+  //     "before": [">"],
+  //     "commands": ["editor.action.indentLines"]
+  //   },
+  //   {
+  //     "before": ["<"],
+  //     "commands": ["editor.action.outdentLines"]
+  //   }
+  // ],
+  // "vim.normalModeKeyBindingsNonRecursive": [
+  //   {
+  //     "before": ["<leader>", "d"],
+  //     "after": ["d", "d"]
+  //   },
+  //   {
+  //     "before": ["<C-n>"],
+  //     "commands": [":nohl"]
+  //   },
+  //   {
+  //     "before": ["K"],
+  //     "commands": ["lineBreakInsert"],
+  //     "silent": true
+  //   },
+  //   {
+  //     "before": ["leader", "w"],
+  //     "commands": ["workbench.action.files.save"]
+  //   },
+  //   {
+  //     "before": ["<leader>", "e"],
+  //     "commands": ["workbench.action.toggleSidebarVisibility"]
+  //   },
+  //   {
+  //     "before": ["<leader>", "f"],
+  //     "commands": ["revealInExplorer"]
+  //   },
+  //   {
+  //     "before": ["<leader>", "h"],
+  //     "commands": ["workbench.action.splitEditor"]
+  //   },
+  //   {
+  //     "before": ["<leader>", "v"],
+  //     "commands": ["workbench.action.splitEditorDown"]
+  //   },
+  //   {
+  //     "before": ["<leader>", "T", "t"],
+  //     "commands": ["workbench.action.toggleActivityBarVisibility"]
+  //   },
+  //   {
+  //     "before": ["<leader>", "T", "j"],
+  //     "commands": ["workbench.action.togglePanel"]
+  //   },
+  //   {
+  //     "before": ["<leader>", "T", "F"],
+  //     "commands": ["workbench.action.toggleFullScreen"]
+  //   },
+  //   {
+  //     "before": ["<leader>", "T", "m"],
+  //     "commands": ["workbench.action.toggleMaximizedPanel"]
+  //   },
+  //   {
+  //   "before": ["<leader>", "T", "T"],
+  //   "commands": ["workbench.action.toggleTabsVisibility"]
+  //   }
+
+
+
+  // ],
+  // "vim.leader": "<space>",
+  // "vim.handleKeys": {
+  //   "<C-z>": true,
+  //   "<C-a>": false,
+  //   "<C-f>": false,
+  //   "<C-c>": false,
+  //   "<C-x>": false,
+  //   "<C-v>": false
+  // }
+}
